@@ -1,75 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viktor Loreth - AI Engineer</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
-            padding: 40px;
-            line-height: 1.6;
-            background-color: #f9f9f9;
+            padding: 20px;
+            background-color: #eef2f7;
             color: #333;
         }
-        h1 {
-            color: #222;
-        }
+
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 40px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #1f2937;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            font-size: 1.8rem;
+            border-bottom: 2px solid #007acc;
+            padding-bottom: 5px;
+            color: #007acc;
+        }
+
         ul {
+            list-style-type: disc;
             padding-left: 20px;
         }
+
         a {
-            color: #0056b3;
+            color: #007acc;
             text-decoration: none;
         }
+
         a:hover {
             text-decoration: underline;
         }
-        .contact {
-            margin-top: 20px;
+
+        .contact a {
+            font-weight: bold;
         }
     </style>
 </head>
+
 <body>
-    <div class="container">
-        <h1>Professional Summary</h1>
-        <p>
-            I am an AI Engineer with a robust background in project management and IT consulting, holding an MSc in Business Informatics and advanced studies in Artificial Intelligence.
-            My expertise lies in Python, Machine Learning, Laravel, Data Analytics, and the development of ML pipelines. I have hands-on experience leading and contributing to innovative projects, including:
-        </p>
+<div class="container">
 
+    <header>
+        <h1>Viktor Loreth</h1>
+        <p>AI Engineer | Project Management | IT Consulting</p>
+    </header>
+
+    <section>
+        <h2>Professional Summary</h2>
+        <p>I am an AI Engineer with extensive experience in project management, IT consulting, and software development.
+            I hold an MSc in Business Informatics with advanced studies in Artificial Intelligence. My core technical
+            skills include Python, Machine Learning, Laravel, Data Analytics, and building robust ML pipelines.</p>
+    </section>
+
+    <section>
+        <h2>Programming Projects</h2>
         <ul>
-            <li>A digital election platform for JKU, enhancing democratic participation through secure technology.</li>
-            <li>An OCR tool that streamlines auditors’ workflows and improves process coordination.</li>
-            <li>A Retrieval-Augmented Generation (RAG) tool for analyzing SEC filings, driving efficiencies in regulatory data processing.</li>
+            <li><strong>Digital Election Platform for the JKU Senate Elections</strong>
+                <br>Developed a robust and secure digital voting platform to facilitate the JKU Senate Elections,
+                significantly enhancing democratic participation among faculty members. Built using Laravel, the system
+                leveraged a structured SQL database to securely store voter data, election information, and results. My
+                role involved active collaboration within an agile Kanban team, managing task distribution, feature
+                development, and rigorous testing cycles. Secure platform enhancing democratic participation. The
+                project is not publicly available due to security concerns.
+            </li>
+            <br>
+            <li><strong>OCR Workflow Automation Tool</strong>
+                <br> Developed a private project focused on automating document processing workflows for auditors using
+                advanced Optical Character Recognition (OCR) technology. This solution significantly accelerates data
+                extraction and verification processes, dramatically reducing the time auditors typically spend on manual
+                data entry and validation tasks. By converting complex financial documents and invoices into structured
+                digital data, the tool enhances accuracy and minimizes human errors. The project's primary goal is to
+                optimize accounting procedures, enabling auditors and financial professionals to save hours of tedious
+                manual work, thus increasing productivity and allowing them to focus on higher-value analytical tasks.
+                The tool is available for commercial usage upon request.
+            </li>
+            <br>
+            <li><strong>SEC-Filing Scraper</strong>
+                <br>Developed a private project aimed at automating the retrieval and analysis of SEC filings. Utilizing
+                advanced scraping and natural language processing (NLP) techniques, this tool extracts critical
+                financial data from regulatory documents such as 10-K and 10-Q reports. By streamlining the data
+                collection and analysis process, the tool significantly reduces the manual effort traditionally required
+                for regulatory compliance and investment analysis. The primary objective is to enhance accuracy, improve
+                efficiency, and allow financial analysts and compliance professionals to focus on strategic
+                decision-making tasks. The scraper is publicly on <a
+                        href="https://github.com/ViktorLor/SEC_FilingsScraper" target="_blank">GitHub</a>.
+            </li>
+            <br>
+            <li><strong>ROAR RemOve And Retrain – Evaluating AI Model Interpretability</strong>
+                <br>Developed a scientific research project focused on evaluating and interpreting AI model
+                explainability algorithms using the Remove and Retrain (ROAR) methodology. Leveraging deep learning
+                techniques, this project systematically assesses the reliability and accuracy of feature attribution
+                methods, providing critical insights into AI model behaviors. The primary objective is to enhance
+                transparency and trust in AI systems, aiding researchers and practitioners in making informed decisions
+                about model deployment. This work highlights my expertise in scientific analysis and advanced deep
+                learning concepts. The complete project is publicly available on <a
+                        href="https://github.com/ViktorLor/RemOve_And_Retrain_Copy" target="_blank">GitHub</a>.
+            </li>
         </ul>
+    </section>
 
-        <p>
-            Originally from Salzburg, I completed my education at HTBLUVA in electronics and technical informatics, followed by a year as a full-stack engineer.
-            I earned a BSc in AI from Linz before transitioning into consulting, where I spent two years optimizing business processes.
-            My academic journey culminated in a Master’s in Business Informatics, sparking my passion for automating AI-driven solutions.
-        </p>
+    <section>
+        <h2>Consulting Projects</h2>
+        <ul>
+            <li><strong>ERP Procurement & Evaluation – Logistics and Real Estate Sector</strong>
+                <br>Facilitated comprehensive ERP procurement initiatives in both a logistics company and the real estate
+                sector. The process spanned end-to-end activities from process analysis to final vendor selection,
+                including the creation of RFIs and RFPs, vendor shortlisting, and offer evaluation. My consulting work
+                enabled clients to gain strategic clarity in their system architecture and select optimal ERP solutions
+                based on transparent, criteria-based scoring frameworks. These engagements demonstrated my ability to
+                align technology selection with business process requirements across distinct industries.
+            </li>
 
-        <p>
-            I am open to new opportunities as an AI Engineer, where I can leverage my technical and managerial skills to build impactful solutions.
-        </p>
+            <br>
+            <li><strong>IREB Certification Training for Consultants</strong>
+                <br>Delivered a four-day intensive training program to prepare junior consultants for the IREB CPRE
+                Foundation Level certification. The course covered core requirements engineering principles, stakeholder
+                management, modeling techniques, and validation strategies. The training emphasized both theoretical
+                understanding and practical exam preparation, resulting in increased pass rates and internal upskilling
+                of the consulting workforce.
+            </li>
 
-        <div class="contact">
-            <h2>Connect with me:</h2>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/viktor-loreth" target="_blank">LinkedIn</a></li>
-                <li>Email: <a href="mailto:viktor.loreth@protonmail.com">viktor.loreth@protonmail.com</a></li>
-            </ul>
-        </div>
-    </div>
+            <br>
+            <li><strong>Project Management Support – App Development for Global Automotive Supplier</strong>
+                <br>Supported the product development team of a multinational industrial automation provider during the
+                rollout of a custom mobile application. Worked directly within the agile setup using Jira and Confluence
+                to facilitate backlog grooming, sprint planning, documentation, and milestone tracking. The role
+                involved coordinating tasks between developers, designers, and stakeholders to ensure timely delivery
+                and scope alignment.
+            </li>
+
+            <br>
+            <li><strong>Code Debugging Support – Austrian Data Center Modernization</strong>
+                <br>Assisted a national data center in analyzing and debugging legacy code as part of a broader software
+                modernization effort. Conducted codebase audits to identify logic errors, performance bottlenecks, and
+                deprecated functionality, contributing to increased system reliability and readiness for migration. The
+                project improved maintainability and laid the groundwork for future system upgrades.
+            </li>
+
+            <br>
+            <li><strong>ERP Vendor Selection – Forestry Software Company</strong>
+                <br>Consulted a forestry-focused software provider in the strategic evaluation and selection of a new
+                ERP system. The engagement involved stakeholder interviews, process mapping, and the development of
+                structured evaluation criteria tailored to industry-specific needs. This project ensured a more informed
+                ERP acquisition and reduced the risk of implementation misalignment.
+            </li>
+        </ul>
+    </section>
+
+
+    <section>
+        <h2>Skills & Expertise</h2>
+        <ul>
+            <li>Python, Machine Learning & Data Analytics</li>
+            <li>ML Pipeline Development & Optimization</li>
+            <li>Full-stack Web Development (Laravel, JavaScript)</li>
+            <li>Project Management & IT Consulting</li>
+            <li>Process Automation</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education & Background</h2>
+        <ul>
+            <li>HTBLUVA Salzburg – Electronics and Technical Informatics</li>
+            <li>BSc in Artificial Intelligence – Johannes Kepler University, Linz</li>
+            <li>MSc in Business Informatics – Johannes Kepler University, Linz</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Certificates</h2>
+        <ul>
+            <li>PMP - Project Management Professional</li>
+            <li>Scrum Master</li>
+            <li>TOGAF Architecture Enterprise</li>
+            <li>IREB - Requirements Engineer</li>
+
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact & Connect</h2>
+        <ul>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/viktor-loreth" target="_blank">linkedin.com/in/viktor-loreth</a>
+            </li>
+            <li>GitHub: <a href="https://github.com/ViktorLor" target="_blank">github.com/ViktorLor</a></li>
+            <li>Email: <a href="mailto:viktor.loreth@protonmail.com">viktor.loreth@protonmail.com</a></li>
+
+        </ul>
+    </section>
+
+</div>
 </body>
+
 </html>
